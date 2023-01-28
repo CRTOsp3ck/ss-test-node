@@ -14,8 +14,8 @@ LABEL description="Multistage Docker image for Substrate Node Template" \
   image.authors="you@email.com" \
   image.vendor="Substrate Developer Hub" \
   image.description="Multistage Docker image for Substrate Node Template" \
-  image.source="https://github.com/substrate-developer-hub/substrate-node-template" \
-  image.documentation="https://github.com/substrate-developer-hub/substrate-node-template"
+  image.source="https://github.com/CRTOsp3ck/ss-test-node" \
+  image.documentation="https://github.com/CRTOsp3ck/ss-test-node"
 
 # Copy the node binary.
 COPY --from=builder /node-template/target/release/node-template /usr/local/bin
